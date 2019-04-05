@@ -1,11 +1,11 @@
 # Site settings
 author: James Savory
-title: 
+title: Data Science Technical Blog
 header-img: img/home-bg.png
 email: james.pa.savory@gmail.com
 copyright_name: James Savory
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Written for Other Aspiring Data Scientists
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jsavory-94
