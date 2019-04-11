@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Module 1 Final Project: My EDA Process"
-date:       2019-04-09 23:03:13 +0000
+date:       2019-04-09 19:03:14 -0400
 permalink:  module_1_final_project_my_eda_process
 ---
 
