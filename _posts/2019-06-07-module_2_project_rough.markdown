@@ -1,11 +1,11 @@
 ---
 layout: post
-title:      "Module 2 Project (Rough)"
-date:       2019-06-07 20:49:24 +0000
+title:      "Hypothesis Testing on Northwind Traders Database"
+date:       2019-06-07 16:49:25 -0400
 permalink:  module_2_project_rough
 ---
 
-## Generating Hypotheses to Test, Execution Process, Extracting Business Value
+## Overviewing my process for Generating Hypotheses, Executing them, and Extracting Business Value from Conclusions
 
 To illustrate the process of how the hypothesis tests were generated, executed, and how conclusions were taken from them, I will be explaining the using my second question of "Does an employee's age have a significant effect on their performance?" as a case study.
 
