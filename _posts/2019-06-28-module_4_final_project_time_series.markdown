@@ -1,11 +1,32 @@
 ---
 layout: post
-title:      "Module 4 Final Project: Time Series "
-date:       2019-06-28 20:50:38 +0000
+title:      "Module 4 Final Project: Time Series"
+date:       2019-06-28 16:50:39 -0400
 permalink:  module_4_final_project_time_series
 ---
 
 
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+**Summary**
+The process for generating this time series model performed the following steps on the data, in order: 
+   1. pre-processing 
+   2. determining the best 5 zip codes for investment
+   3. visualizing
+   4. modeling
+   5. interpreting results and formulating conclusions
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+**Step 1: Pre-Processing**
+After performing the standard initial step of reading in the csv file containing the data as a dataframe, we are faced with the task of transforming it into a format that can be modeled. 
+
+The first step of my transformation process was to ensure each column had the appropriate datatype. Noticeably, there were two important categorical variables which represented the ID and zipcode of each house in the dataset respectively that were stored as an integer datatype. To correct this each was converted to a string. 
+
+The third instance of incorrect datatype occured in each of the data's date columns which were stored as strings. Using Pandas' datetime module, a custom function was created to convert each back to type dateTime when needed. This was especially useful for step 2 where the delta in time needed to be calculated to forumulate annual metrics on investment growth.
+
+**Step 2: Determining the Best 5 Zip Codes for Investment**
+My definition for the best zip codes for investment was - which have been most profitable historically? 
+
+Because determinants of real estate demand such as demographic shifts, interest rates, health of the economy, and government policies are time relevant, profitability was weighted more heavily the more recently it took place. 
+
+The measurement chosen to measure the profitability part of  our best definition was Return on Investment (ROI),  which calculates the percentage increase/decrease of an investment's value over a given time period. ROI was chosen due to how well it fits what is needed for our analysis - its benefits of being a simple and standardized measure of profitability makes it an ideal tool for efficiently comparing our different investments. Its main limitation of not accounting for the holding period is also mitigated due to the fact that the investments we're comparing are all of the same time period. 
+
+The ROI will be implemented 
