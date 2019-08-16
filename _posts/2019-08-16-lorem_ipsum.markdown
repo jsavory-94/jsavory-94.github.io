@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Lorem Ipsum"
-date:       2019-08-16 20:25:26 +0000
+date:       2019-08-16 16:25:27 -0400
 permalink:  lorem_ipsum
 ---
 
