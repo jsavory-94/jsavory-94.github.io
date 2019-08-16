@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Lorem Ipsum"
+title:      "Module 5 Project - Machine Learning and Big Data"
 date:       2019-08-16 16:25:27 -0400
 permalink:  lorem_ipsum
 ---
