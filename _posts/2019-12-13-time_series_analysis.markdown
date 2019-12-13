@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Time Series Analysis"
-date:       2019-12-13 21:33:45 +0000
+date:       2019-12-13 16:33:46 -0500
 permalink:  time_series_analysis
 ---
 
