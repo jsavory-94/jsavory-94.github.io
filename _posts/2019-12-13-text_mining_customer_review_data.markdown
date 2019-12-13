@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Text Mining Customer Review Data "
-date:       2019-12-13 21:32:09 +0000
+date:       2019-12-13 16:32:09 -0500
 permalink:  text_mining_customer_review_data
 ---
 
